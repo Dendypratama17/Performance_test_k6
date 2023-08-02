@@ -14,3 +14,5 @@ export default function () {
   check(res, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 }
+
+// k6 run test_k6.js
